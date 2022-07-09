@@ -18,5 +18,7 @@ export default function BrowserDetector(name: string) {
 
 	if (browserName === name) {
 		return true;
+	} else {
+		return false;
 	}
 }
