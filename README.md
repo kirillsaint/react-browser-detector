@@ -30,7 +30,7 @@ import {
 } from "@kirillsaint/browser-detector";
 ```
 
-```html
+```jsx
 <SafariView>
 	<h1>This is rendered only in Safari</h1>
 </SafariView>
@@ -74,7 +74,7 @@ function App() {
 
 You can style a view component by passing class to the `className` prop
 
-```html
+```jsx
 <SafariView className="custom-class">
 	<p>View content</p>
 </SafariView>
@@ -82,16 +82,14 @@ You can style a view component by passing class to the `className` prop
 
 or you can pass inline styles to `style` prop
 
-```javascript
-const styles = {
-	background: "red",
-	fontSize: "24px",
-	lineHeight: "2",
-};
-```
-
-```html
-<SafariView style="{styles}">
+```jsx
+<SafariView
+	style={{
+		background: "red",
+		fontSize: "24px",
+		lineHeight: "2",
+	}}
+>
 	<p>View content</p>
 </SafariView>
 ```
