@@ -28,7 +28,7 @@ import {
 	FirefoxView,
 	YandexView,
 	OtherView,
-} from "@kirillsaint/browser-detector";
+} from "react-browser-detector";
 ```
 
 ```jsx
@@ -60,7 +60,7 @@ import {
 if you don't need a view, you can use `BrowserDetector` for conditional rendering
 
 ```javascript
-import { BrowserDetector } from '@kirillsaint/browser-detector';
+import { BrowserDetector } from 'react-browser-detector';
 
 function App() {
   renderContent = () => {

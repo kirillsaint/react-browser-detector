@@ -5,7 +5,7 @@
 `BrowserDetector` - takes a `name` parameter with the name of the browser and returns `true` or `false`. List of supported browsers: `Chrome`, `Safari`, `Edge`, `Opera`, `Firefox`, `Yandex`, `Other`
 
 ```js
-import { BrowserDetector } from "@kirillsaint/browser-detector";
+import { BrowserDetector } from "react-browser-detector";
 
 function App() {
 	const renderContent = () => {
@@ -22,7 +22,7 @@ function App() {
 `GetCurrentBrowser` - returns browser name.
 
 ```js
-import { GetCurrentBrowser } from "@kirillsaint/browser-detector";
+import { GetCurrentBrowser } from "react-browser-detector";
 
 function App() {
 	return <h1>Your browser is {GetCurrentBrowser()}</h1>;
