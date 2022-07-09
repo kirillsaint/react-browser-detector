@@ -7,14 +7,14 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/kirillsaint/browser-detector.git"
+		"url": "git+https://github.com/kirillsaint/react-browser-detector.git"
 	},
 	"author": "kirillsaint",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/kirillsaint/browser-detector/issues"
+		"url": "https://github.com/kirillsaint/react-browser-detector/issues"
 	},
-	"homepage": "https://github.com/kirillsaint/browser-detector#readme",
+	"homepage": "https://github.com/kirillsaint/react-browser-detector#readme",
 	"devDependencies": {
 		"@rollup/plugin-commonjs": "^22.0.1",
 		"@rollup/plugin-node-resolve": "^13.3.0",
