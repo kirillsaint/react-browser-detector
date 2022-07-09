@@ -1,6 +1,6 @@
 {
 	"name": "@kirillsaint/browser-detector",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Detect browser, and render view according to the detected browser type.",
 	"scripts": {
 		"rollup": "rollup -c"

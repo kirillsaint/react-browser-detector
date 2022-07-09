@@ -1,6 +1,6 @@
-export { default as ChromeView } from "./detectors/ChromeView";
-export { default as SafariView } from "./detectors/SafariView";
-export { default as OperaView } from "./detectors/OperaView";
-export { default as FirefoxView } from "./detectors/FirefoxView";
-export { default as EdgeView } from "./detectors/EdgeView";
-export { default as OtherView } from "./detectors/OtherView";
+export { default as ChromeView } from "./views/ChromeView";
+export { default as SafariView } from "./views/SafariView";
+export { default as OperaView } from "./views/OperaView";
+export { default as FirefoxView } from "./views/FirefoxView";
+export { default as EdgeView } from "./views/EdgeView";
+export { default as OtherView } from "./views/OtherView";
