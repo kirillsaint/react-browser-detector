@@ -12,6 +12,8 @@ export default function GetCurrentBrowser() {
 		browserName = "Opera";
 	} else if (userAgent.match(/edg/i)) {
 		browserName = "Edge";
+	} else if (userAgent.match(/yabrowser|yowser/i)) {
+		browserName = "Yandex";
 	} else {
 		browserName = "Other";
 	}

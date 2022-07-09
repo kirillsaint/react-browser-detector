@@ -26,6 +26,7 @@ import {
 	OperaView,
 	EdgeView,
 	FirefoxView,
+	YandexView,
 	OtherView,
 } from "@kirillsaint/browser-detector";
 ```
@@ -47,6 +48,9 @@ import {
 	<FirefoxView>
 		<h1>This is rendered only in Firefox</h1>
 	</FirefoxView>
+	<YandexView>
+		<h1>This is rendered only in Yandex Browser</h1>
+	</YandexView>
 	<OtherView>
 		<h1>This content is rendered only in other browsers</h1>
 	</OtherView>

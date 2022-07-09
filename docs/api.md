@@ -2,7 +2,7 @@
 
 #### Hooks
 
-`BrowserDetector` - takes a `name` parameter with the name of the browser and returns `true` or `false`. List of supported browsers: `Chrome`, `Safari`, `Edge`, `Opera`, `Firefox`, `Other`
+`BrowserDetector` - takes a `name` parameter with the name of the browser and returns `true` or `false`. List of supported browsers: `Chrome`, `Safari`, `Edge`, `Opera`, `Firefox`, `Yandex`, `Other`
 
 ```js
 import { BrowserDetector } from "@kirillsaint/browser-detector";

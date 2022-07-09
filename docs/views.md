@@ -9,6 +9,7 @@ List of available views:
 | EdgeView    | returns `children` if detected browser is `Edge`    |
 | FirefoxView | returns `children` if detected browser is `Firefox` |
 | OperaView   | returns `children` if detected browser is `Opera`   |
+| YandexView  | returns `children` if detected browser is `Yandex`  |
 
 There is also `OtherView` which returns `children` if the browser is not listed.
 
