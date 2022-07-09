@@ -18,3 +18,13 @@ function App() {
 	return renderContent;
 }
 ```
+
+`GetCurrentBrowser` - returns browser name.
+
+```js
+import { GetCurrentBrowser } from "@kirillsaint/browser-detector";
+
+function App() {
+	return <h1>Your browser is {GetCurrentBrowser()}</h1>;
+}
+```
