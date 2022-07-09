@@ -1,5 +1,5 @@
 {
-	"name": "@kirillsaint/browser-detector",
+	"name": "react-browser-detector",
 	"version": "1.0.7",
 	"description": "Detect browser, and render view according to the detected browser type.",
 	"scripts": {
@@ -30,8 +30,5 @@
 	"files": [
 		"dist"
 	],
-	"types": "dist/index.d.ts",
-	"publishConfig": {
-		"registry": "https://npm.pkg.github.com/browser-detector"
-	}
+	"types": "dist/index.d.ts"
 }
