@@ -46,9 +46,9 @@ import {
 <FirefoxView>
 	<h1>This is rendered only in Firefox</h1>
 </FirefoxView>
-<OtherBrowser>
+<OtherView>
 	<h1>This content is rendered only in other browsers</h1>
-</OtherBrowser>
+</OtherView>
 ```
 
 if you don't need a view, you can use `BrowserDetector` for conditional rendering
