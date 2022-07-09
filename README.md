@@ -13,7 +13,6 @@ npm install @kirillsaint/browser-detector
 ## API
 
 - [Hooks, SSR and utilities](docs/api.md)
-- [Selectors](docs/selectors.md)
 - [Views](docs/views.md)
 
 ## Usage
