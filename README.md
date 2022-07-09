@@ -31,24 +31,26 @@ import {
 ```
 
 ```jsx
-<SafariView>
-	<h1>This is rendered only in Safari</h1>
-</SafariView>
-<ChromeView>
-	<h1>This is rendered only in Chrome</h1>
-</ChromeView>
-<OperaView>
-	<h1>This is rendered only in Opera</h1>
-</OperaView>
-<EdgeView>
-	<h1>This is rendered only in Edge</h1>
-</EdgeView>
-<FirefoxView>
-	<h1>This is rendered only in Firefox</h1>
-</FirefoxView>
-<OtherView>
-	<h1>This content is rendered only in other browsers</h1>
-</OtherView>
+<>
+	<SafariView>
+		<h1>This is rendered only in Safari</h1>
+	</SafariView>
+	<ChromeView>
+		<h1>This is rendered only in Chrome</h1>
+	</ChromeView>
+	<OperaView>
+		<h1>This is rendered only in Opera</h1>
+	</OperaView>
+	<EdgeView>
+		<h1>This is rendered only in Edge</h1>
+	</EdgeView>
+	<FirefoxView>
+		<h1>This is rendered only in Firefox</h1>
+	</FirefoxView>
+	<OtherView>
+		<h1>This content is rendered only in other browsers</h1>
+	</OtherView>
+</>
 ```
 
 if you don't need a view, you can use `BrowserDetector` for conditional rendering
