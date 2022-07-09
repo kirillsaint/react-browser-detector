@@ -2,13 +2,10 @@ import BrowserDetector from "../../utils/BrowserDetector";
 import { ReactNode } from "react";
 import React from "react";
 
-export interface OtherDetectorParams {
+export interface OtherViewParams {
 	children: ReactNode;
 }
 
-export default function OtherDetector({
-	children,
-	...props
-}: OtherDetectorParams) {
+export default function OtherView({ children, ...props }: OtherViewParams) {
 	return BrowserDetector("Other") ? <div {...props}>{children}</div> : null;
 }

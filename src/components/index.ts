@@ -1,6 +1,6 @@
-export { default as ChromeDetector } from "./detectors/ChromeDetector";
-export { default as SafariDetector } from "./detectors/SafariDetector";
-export { default as OperaDetector } from "./detectors/OperaDetector";
-export { default as FirefoxDetector } from "./detectors/FirefoxDetector";
-export { default as EdgeDetector } from "./detectors/EdgeDetector";
-export { default as OtherDetector } from "./detectors/OtherDetector";
+export { default as ChromeView } from "./detectors/ChromeView";
+export { default as SafariView } from "./detectors/SafariView";
+export { default as OperaView } from "./detectors/OperaView";
+export { default as FirefoxView } from "./detectors/FirefoxView";
+export { default as EdgeView } from "./detectors/EdgeView";
+export { default as OtherView } from "./detectors/OtherView";

@@ -2,13 +2,10 @@ import BrowserDetector from "../../utils/BrowserDetector";
 import { ReactNode } from "react";
 import React from "react";
 
-export interface EdgeDetectorParams {
+export interface EdgeViewParams {
 	children: ReactNode;
 }
 
-export default function EdgeDetector({
-	children,
-	...props
-}: EdgeDetectorParams) {
+export default function EdgeView({ children, ...props }: EdgeViewParams) {
 	return BrowserDetector("Edge") ? <div {...props}>{children}</div> : null;
 }

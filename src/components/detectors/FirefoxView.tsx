@@ -2,13 +2,10 @@ import BrowserDetector from "../../utils/BrowserDetector";
 import { ReactNode } from "react";
 import React from "react";
 
-export interface FirefoxDetectorParams {
+export interface FirefoxViewParams {
 	children: ReactNode;
 }
 
-export default function FirefoxDetector({
-	children,
-	...props
-}: FirefoxDetectorParams) {
+export default function FirefoxView({ children, ...props }: FirefoxViewParams) {
 	return BrowserDetector("Firefox") ? <div {...props}>{children}</div> : null;
 }

@@ -2,13 +2,10 @@ import BrowserDetector from "../../utils/BrowserDetector";
 import { ReactNode } from "react";
 import React from "react";
 
-export interface OperaDetectorParams {
+export interface OperaViewParams {
 	children: ReactNode;
 }
 
-export default function OperaDetector({
-	children,
-	...props
-}: OperaDetectorParams) {
+export default function OperaView({ children, ...props }: OperaViewParams) {
 	return BrowserDetector("Opera") ? <div {...props}>{children}</div> : null;
 }
