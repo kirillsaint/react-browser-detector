@@ -1,11 +1,6 @@
 import BrowserDetector from "../../utils/BrowserDetector";
-import { ReactNode } from "react";
 import React from "react";
 
-export interface ChromeViewParams {
-	children: ReactNode;
-}
-
-export default function ChromeView({ children, ...props }: ChromeViewParams) {
+export default function ChromeView({ children, ...props }: any) {
 	return BrowserDetector("Chrome") ? <div {...props}>{children}</div> : null;
 }

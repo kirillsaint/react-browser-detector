@@ -8,11 +8,11 @@ export default function GetCurrentBrowser() {
 		browserName = "Firefox";
 	} else if (userAgent.match(/safari/i)) {
 		browserName = "Safari";
-	} else if (userAgent.match(/opr\//i)) {
+	} else if (userAgent.includes("OPR")) {
 		browserName = "Opera";
-	} else if (userAgent.match(/edg/i)) {
+	} else if (userAgent.includes("Edg")) {
 		browserName = "Edge";
-	} else if (userAgent.match(/yabrowser|yowser/i)) {
+	} else if (userAgent.includes("YaBrowser")) {
 		browserName = "Yandex";
 	} else {
 		browserName = "Other";
