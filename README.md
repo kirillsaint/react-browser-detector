@@ -4,10 +4,14 @@ Detect browser, and render view according to the detected browser type.
 
 ## Installation
 
-To install, you can use npm:
+To install, you can use npm or yarn:
 
 ```
 npm install react-browser-detector
+
+or
+
+yarn add react-browser-detector
 ```
 
 ## API
